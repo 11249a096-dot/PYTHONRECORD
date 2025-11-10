@@ -1,4 +1,4 @@
-# AIM:
+# AIM: 
 # To compute the exponential value of a number using Python programming.
 
 # ALGORITHM:
