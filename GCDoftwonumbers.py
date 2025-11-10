@@ -2,7 +2,7 @@
 
 // ALGORITHM:
 //1. Import the math module which contains the gcd function.
-//2. Take two integer inputs from the user.
+//2. Take two integer inputs from the user. 
 //3. Use math.gcd(a, b) to compute the GCD.
 //4. Display the result.
 import math  # Step 1: Importing the math module
