@@ -1,0 +1,26 @@
+# Function to convert Binary to Decimal
+def binary_to_decimal(b):
+    try:
+        decimal = int(b, 2)   # base 2
+        return decimal
+    except ValueError:
+        return "Invalid binary number!"
+
+
+# Function to convert Octal to Hexadecimal
+def octal_to_hexadecimal(o):
+    try:
+        decimal = int(o, 8)   # convert octal to decimal
+        hexa = hex(decimal)[2:].upper()  # convert decimal to hex (remove 0x)
+        return hexa
+    except ValueError:
+        return "Invalid octal number!"
+
+
+# Main program
+binary = input("Enter a binary number: ")
+octal = input("Enter an octal number: ")
+
+print("\nResults:")
+print("Binary to Decimal:", binary_to_decimal(binary))
+print("Octal to Hexadecimal:", octal_to_hexadecimal(octal))
